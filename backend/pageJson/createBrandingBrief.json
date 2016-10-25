@@ -1,0 +1,74 @@
+{
+    "title": "BrandingBrief form",
+    "name": "BrandingBrief",
+    "jsonPage": "viewBrandingBrief",
+    "desciption": "",
+    "pageType": "create",
+    "urlFields": ["newBrandingBrief"],
+    "fields": [{
+        "name": "First Name",
+        "type": "text",
+        "tableRef": "firstname",
+        "placeholder": "",
+        "validation": ["required", "trim"],
+        "id": "firstname",
+        "url": ""
+    }, {
+        "name": "Middle Name",
+        "type": "text",
+        "tableRef": "middlename",
+        "placeholder": "",
+        "id": "middlename",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Last Name",
+        "type": "text",
+        "tableRef": "lastname",
+        "placeholder": "",
+        "id": "lastname",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Company",
+        "type": "text",
+        "tableRef": "company",
+        "placeholder": " ",
+        "id": "company",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Does your brand have a name?",
+        "type": "tags",
+        "tableRef": "brandname",
+        "placeholder": "",
+        "id": "brandname",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }],
+    "action": [{
+        "name": "submit",
+        "action": "submitBrandingBrief",
+        "stateName": {
+            "page": "page",
+            "json": {
+                "id": "viewBrandingBrief"
+            }
+        }
+    }, {
+        "name": "cancel",
+        "sideMenuRedirect": true,
+        "stateName": {
+            "page": "page",
+            "json": {
+                "id": "viewBrandingBrief"
+            }
+        }
+    }],
+    "apiCall": {
+        "url": "BrandingBrief/save"
+    }
+}
