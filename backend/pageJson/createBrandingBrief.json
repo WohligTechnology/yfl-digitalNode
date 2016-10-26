@@ -156,7 +156,7 @@
         "validation": ["required", "trim"],
         "url": ""
     }, {
-        "name": "What colors do you associate with the brand?",
+        "name": "What are the brand’s origins? (How did it start, where did the idea come from, etc)",
         "type": "text",
         "tableRef": "brandorigin",
         "placeholder": "",
@@ -164,7 +164,7 @@
         "validation": ["required", "trim"],
         "url": ""
     }, {
-        "name": "What colors do you associate with the brand?",
+        "name": "Where does the brand want to be in the next 5-10 years?",
         "type": "text",
         "tableRef": "brandfuture",
         "placeholder": "",
