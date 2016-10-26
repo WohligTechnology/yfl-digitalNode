@@ -156,6 +156,30 @@
         "validation": ["required", "trim"],
         "url": ""
     }, {
+        "name": "What type of logo(s) do you prefer for the Brand? ",
+        "type": "tags",
+        "tableRef": "brandPersonality",
+        "placeholder": "",
+        "id": "brandPersonality",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Symbol/Icon", "Word Mark", "Letter Mark", "Combination Mark", "Emblem"]
+    }, {
+        "name": "What font(s) do you prefer for the Brand?",
+        "type": "tags",
+        "tableRef": "brandPersonality",
+        "placeholder": "",
+        "id": "brandPersonality",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Classic", "Modern", "Script", "Hand Written", "Bold", "Customised"]
+    }, {
         "name": "What are the brand’s origins? (How did it start, where did the idea come from, etc)",
         "type": "text",
         "tableRef": "brandorigin",
