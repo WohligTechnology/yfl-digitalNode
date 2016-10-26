@@ -48,6 +48,149 @@
         "dropDownField": "",
         "dropDownType": "single",
         "dropDown": ["Yes", "No"]
+    }, {
+        "name": "What have you set out to accomplish with your brand?",
+        "type": "tags",
+        "tableRef": "accomplishBrand",
+        "placeholder": "",
+        "id": "accomplishBrand",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Fulfill a need", "Spread happiness", "Promote healthy living", "Provide entertainment and enjoyment",
+            "Create understanding and awareness", "Inspire creativity and self-expression", "Take care of people", "Enable emotional connection"
+        ]
+    }, {
+        "name": "Which of the following characteristics best describe the personality you want your brand to have?",
+        "type": "tags",
+        "tableRef": "brandPersonality",
+        "placeholder": "",
+        "id": "brandPersonality",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Unconventional", "Practical", "Inventive", "Funny", "Leader", "Powerful", "Dependable", "Protective", "Creative", "Optimistic",
+            "Nurturing", "Realistic", "Adventurous", "Entertaining", "Imaginative", "Artistic", "Truthful", "Mischievous", "Ambitious", "Helpful",
+            "Innovative", "Functional", "Thoughtful", "Strong", "Wise", "Rebellious", "Liberating", "Romantic", "Enthusiastic", "Intimate", "Simple", "Brave",
+            "Honest"
+        ]
+    }, {
+        "name": "Do you see your Brand being more Feminine (1) or Masculine (10)?",
+        "type": "tags",
+        "tableRef": "brandFeminineMasculine",
+        "placeholder": "",
+        "id": "brandFeminineMasculine",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    }, {
+        "name": "Do you see your Brand being Younger (1) or Mature (10)?",
+        "type": "tags",
+        "tableRef": "brandYoungerMature",
+        "placeholder": "",
+        "id": "brandYoungerMature",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    }, {
+        "name": "Do you see your Brand being more Affordable (1) or Luxurious (10)?",
+        "type": "tags",
+        "tableRef": "brandAffordableLuxurious",
+        "placeholder": "",
+        "id": "brandAffordableLuxurious",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    }, {
+        "name": "Do you see your Brand being more Classic (1) or Modern (10)?",
+        "type": "tags",
+        "tableRef": "brandClassicModern",
+        "placeholder": "",
+        "id": "brandClassicModern",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    }, {
+        "name": "Do you see your Brand being more Playful (1) or Serious (10)?",
+        "type": "tags",
+        "tableRef": "brandPlayfulSerious",
+        "placeholder": "",
+        "id": "brandPlayfulSerious",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    }, {
+        "name": "What do you want your customers to feel when interacting with the Brand? ",
+        "type": "tags",
+        "tableRef": "brandPersonality",
+        "placeholder": "",
+        "id": "brandPersonality",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Happiness", "Surprise", "Inspiration", "Anxiety", "Temptation", "Relief", "Entertainment", "Empowerment",
+            "Nostalgia", "Provocation", "Some specific unique/custom functionality.", "Satisfaction"
+        ]
+    }, {
+        "name": "What colors do you associate with the brand?",
+        "type": "text",
+        "tableRef": "brandcolor",
+        "placeholder": "",
+        "id": "brandcolor",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What colors do you associate with the brand?",
+        "type": "text",
+        "tableRef": "brandorigin",
+        "placeholder": "",
+        "id": "brandcolor",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What colors do you associate with the brand?",
+        "type": "text",
+        "tableRef": "brandfuture",
+        "placeholder": "",
+        "id": "brandcolor",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Where all do you intend to use your Brand identity to communicate with the world?",
+        "type": "tags",
+        "tableRef": "brandidentity",
+        "placeholder": "",
+        "id": "brandidentity",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Print", "Online (Website, Social Media, Email)", "Video", "Events and Experiences", "Mobile"]
+    }, {
+        "name": "Is there something in particular you love and want your brand identity to include?",
+        "type": "text",
+        "tableRef": "brandlove",
+        "placeholder": "",
+        "id": "brandlove",
+        "validation": ["required", "trim"],
+        "url": ""
     }],
     "action": [{
         "name": "submit",

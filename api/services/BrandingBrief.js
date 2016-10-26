@@ -17,7 +17,49 @@ var schema = new Schema({
     },
     brandname: {
         type: String,
-        enum: ['Yes', 'No'],
+        enum: ['Yes', 'No']
+    },
+    accomplishBrand: [String],
+    brandPersonality: [String],
+    brandFeminineMasculine: {
+        type: String,
+        enum: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    },
+    brandYoungerMature: {
+        type: String,
+        enum: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    },
+    brandAffordableLuxurious: {
+        type: String,
+        enum: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    },
+    brandClassicModern: {
+        type: String,
+        enum: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    },
+    brandPlayfulSerious: {
+        type: String,
+        enum: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    },
+    brandfeeling: [String],
+    brandcolor: {
+        type: String,
+        required: true
+    },
+    brandcolor: [String],
+    brandlogo: [String],
+    brandfont: [String],
+    brandorigins: {
+        type: String,
+        required: true
+    },
+    brandfuture: {
+        type: String,
+        required: true
+    },
+    brandidentity: [String],
+    brandlove: {
+        type: String,
         required: true
     }
 });

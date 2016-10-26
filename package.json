@@ -50,6 +50,7 @@
     "mongoose-url-slugs": "^0.2.1",
     "mongoose-validators": "^0.1.0",
     "monguurl": "^0.1.0",
+    "nodemon": "^1.11.0",
     "npm": "^3.10.6",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
@@ -78,6 +79,7 @@
   "devDependencies": {
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-htmlmin": "^2.0.0",
-    "grunt-http": "^2.0.1"
+    "grunt-http": "^2.0.1",
+    "nodemon": "^1.11.0"
   }
 }

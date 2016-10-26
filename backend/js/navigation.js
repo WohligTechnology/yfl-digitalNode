@@ -17,6 +17,11 @@ var navigationservice = angular.module('navigationservice', [])
         sref: "#/page/viewBrandingBrief//",
         icon: ""
     }, {
+        name: "WebsiteReq",
+        classis: "active",
+        sref: "#/page/viewWebsiteReq//",
+        icon: ""
+    }, {
         name: "General",
         classis: "active",
         icon: "gear2",
