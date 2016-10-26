@@ -391,7 +391,7 @@
         "validation": ["required", "trim"],
         "url": ""
     }, {
-        "name": "How frequently will you expect to update it?",
+        "name": "Site no no’s: Do you have any definite remarks on what you don’t want to have on your website?",
         "type": "text",
         "tableRef": "middlename",
         "placeholder": "",
@@ -399,7 +399,7 @@
         "validation": ["required", "trim"],
         "url": ""
     }, {
-        "name": "How frequently will you expect to update it?",
+        "name": "Please list 5 (or more) adjectives that you think describe your company or should describe your company in order of relevance / importance.",
         "type": "text",
         "tableRef": "middlename",
         "placeholder": "",
@@ -407,13 +407,32 @@
         "validation": ["required", "trim"],
         "url": ""
     }, {
-        "name": "Is there something in particular you love and want your brand identity to include?",
+        "name": "Competitors: are there any websites that you would consider your “competition”?",
         "type": "text",
         "tableRef": "brandlove",
         "placeholder": "",
         "id": "brandlove",
         "validation": ["required", "trim"],
         "url": ""
+    }, {
+        "name": "Is there something in particular you love and want your website to include?",
+        "type": "text",
+        "tableRef": "brandlove",
+        "placeholder": "",
+        "id": "brandlove",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Would you like a more “corporate” (template based) site such as avasara.in or a more experimental site where almost all pages have a different feel, such as wrap.co.in?",
+        "type": "tags",
+        "tableRef": "brandname",
+        "placeholder": "",
+        "id": "brandname",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Corporate", "Experimental"]
     }],
     "action": [{
         "name": "submit",
